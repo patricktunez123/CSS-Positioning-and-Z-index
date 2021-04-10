@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background: linear-gradient(to bottom, cyan, gray);
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  position: relative;
+}
+.box,
+.box2 {
+  width: 200px;
+  height: 200px;
+}
+.box {
+  background: chartreuse;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.box2 {
+  background: darkblue;
+}
